@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Rancho&display=swap");
+nav {
+  background-color: #fff;
+  font-family: "Rancho", cursive;
+  color: #121212;
+}
+
+#hero .container .row .left h2 {
+  font-family: "Rancho", cursive;
+  color: #121212;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#hero .container .row .left h1 {
+  font-family: "Rancho", cursive;
+  color: #121212;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#hero .container .row .left h1 span {
+  color: #f25287;
+  font-size: 5rem;
+}
+
+#hero .container .row .left .btn {
+  background-color: #f7d9d9;
+  border-radius: 50px 0 50px 0;
+  padding: 0.5rem 2rem;
+}
+
+.framePict {
+  width: 65%;
+  height: 40vw;
+  background-color: #f7d9d9;
+  border-radius: 12rem 0;
+}
+/*# sourceMappingURL=main.css.map */

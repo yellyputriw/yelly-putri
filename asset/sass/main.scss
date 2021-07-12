@@ -1,0 +1,48 @@
+//Font
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Rancho&display=swap");
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Rancho', cursive;
+
+//Variable
+$black-text: #121212;
+$dark-pink: #f25287;
+$light-pink: #f7d9d9;
+
+nav {
+  background-color: #fff;
+  font-family: "Rancho", cursive;
+  color: #121212;
+}
+
+#hero .container .row .left {
+  h2 {
+    font-family: "Rancho", cursive;
+    color: $black-text;
+    font-size: 3rem;
+    text-align: center;
+  }
+  h1 {
+    font-family: "Rancho", cursive;
+    color: $black-text;
+    font-size: 4rem;
+    text-align: center;
+
+    span {
+      color: $dark-pink;
+      font-size: 5rem;
+    }
+  }
+  .btn {
+    background-color: $light-pink;
+    border-radius: 50px 0 50px 0;
+    padding: 0.5rem 2rem;
+  }
+}
+
+.framePict {
+  width: 65%;
+  height: 40vw;
+  background-color: $light-pink;
+  border-radius: 12rem 0;
+}
