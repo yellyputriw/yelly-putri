@@ -2,19 +2,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Rancho&display=swap");
 nav {
   background-color: #fff;
-  font-family: "Rancho", cursive;
+  font-family: 'Rancho', cursive;
   color: #121212;
 }
 
+section {
+  padding: 100px 0;
+  margin: auto;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
 #hero .container .row .left h2 {
-  font-family: "Rancho", cursive;
+  font-family: 'Rancho', cursive;
   color: #121212;
   font-size: 3rem;
   text-align: center;
 }
 
 #hero .container .row .left h1 {
-  font-family: "Rancho", cursive;
+  font-family: 'Rancho', cursive;
   color: #121212;
   font-size: 4rem;
   text-align: center;
@@ -36,5 +45,11 @@ nav {
   height: 40vw;
   background-color: #f7d9d9;
   border-radius: 12rem 0;
+}
+
+.subtitle {
+  color: #f25287;
+  font-family: 'Rancho', cursive;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
