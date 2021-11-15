@@ -9,6 +9,10 @@ $black-text: #121212;
 $dark-pink: #f25287;
 $light-pink: #f7d9d9;
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 nav {
   background-color: #fff;
   font-family: 'Rancho', cursive;
@@ -22,6 +26,10 @@ section {
 
 p {
   font-family: 'Poppins', sans-serif;
+}
+
+#hero {
+  padding-top: 0;
 }
 
 #hero .container .row .left {
@@ -60,4 +68,8 @@ p {
   color: $dark-pink;
   font-family: 'Rancho', cursive;
   font-size: 4rem;
+}
+
+#project .container .row {
+  max-width: 1000px;
 }
