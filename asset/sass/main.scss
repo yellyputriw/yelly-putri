@@ -19,6 +19,11 @@ nav {
   color: #121212;
 }
 
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
 section {
   padding: 100px 0;
   margin: auto;
@@ -28,6 +33,22 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
+i {
+  color: $dark-pink;
+}
+
+.btn {
+  background-color: $light-pink;
+  border-radius: 50px 0 50px 0;
+  padding: 0.5rem 2rem;
+}
+
+.cv-btn {
+  background-color: #fff;
+  border: 1px solid $light-pink;
+}
+
+// Hero
 #hero {
   padding-top: 0;
 }
@@ -50,11 +71,6 @@ p {
       font-size: 5rem;
     }
   }
-  .btn {
-    background-color: $light-pink;
-    border-radius: 50px 0 50px 0;
-    padding: 0.5rem 2rem;
-  }
 }
 
 .framePict {
@@ -70,6 +86,61 @@ p {
   font-size: 4rem;
 }
 
+//Project
 #project .container .row {
-  max-width: 1000px;
+  max-width: 1200px;
+}
+
+.project-title {
+  font-family: 'Rancho', cursive;
+}
+
+.project-description {
+  color: #464646;
+  background-color: $light-pink;
+}
+
+//Tools
+.tools-img {
+  filter: grayscale(0);
+}
+
+.tools-img:hover {
+  filter: grayscale(1);
+}
+
+//contact
+#contact {
+  max-width: 750px;
+}
+
+.social-media {
+  margin-top: 60px;
+
+  .social-wrapper a {
+    width: 60px;
+    height: 60px;
+    display: block;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid $light-pink;
+    border-radius: 50%;
+    color: $dark-pink;
+
+    i {
+      display: block;
+      font-size: 1.3rem;
+      line-height: 1;
+    }
+  }
+}
+
+// footer
+footer {
+  padding: 100px 0 0;
+
+  p {
+    font-family: 'Rancho', cursive;
+    border-top: 1px solid $light-pink;
+  }
 }

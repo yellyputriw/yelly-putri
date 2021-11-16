@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Rancho&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 nav {
   background-color: #fff;
   font-family: 'Rancho', cursive;
   color: #121212;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
 }
 
 section {
@@ -13,6 +22,21 @@ section {
 
 p {
   font-family: 'Poppins', sans-serif;
+}
+
+i {
+  color: #f25287;
+}
+
+.btn {
+  background-color: #f7d9d9;
+  border-radius: 50px 0 50px 0;
+  padding: 0.5rem 2rem;
+}
+
+.cv-btn {
+  background-color: #fff;
+  border: 1px solid #f7d9d9;
 }
 
 #hero {
@@ -38,12 +62,6 @@ p {
   font-size: 5rem;
 }
 
-#hero .container .row .left .btn {
-  background-color: #f7d9d9;
-  border-radius: 50px 0 50px 0;
-  padding: 0.5rem 2rem;
-}
-
 .framePict {
   width: 65%;
   height: 40vw;
@@ -55,5 +73,62 @@ p {
   color: #f25287;
   font-family: 'Rancho', cursive;
   font-size: 4rem;
+}
+
+#project .container .row {
+  max-width: 1200px;
+}
+
+.project-title {
+  font-family: 'Rancho', cursive;
+}
+
+.project-description {
+  color: #464646;
+  background-color: #f7d9d9;
+}
+
+.tools-img {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.tools-img:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+#contact {
+  max-width: 750px;
+}
+
+.social-media {
+  margin-top: 60px;
+}
+
+.social-media .social-wrapper a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #f7d9d9;
+  border-radius: 50%;
+  color: #f25287;
+}
+
+.social-media .social-wrapper a i {
+  display: block;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+footer {
+  padding: 100px 0 0;
+}
+
+footer p {
+  font-family: 'Rancho', cursive;
+  border-top: 1px solid #f7d9d9;
 }
 /*# sourceMappingURL=main.css.map */
