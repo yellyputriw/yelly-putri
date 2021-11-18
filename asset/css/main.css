@@ -4,6 +4,18 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  -webkit-box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+header .navigasi {
+  max-width: 1200px;
+}
+
 nav {
   background-color: #fff;
   font-family: 'Rancho', cursive;
@@ -35,13 +47,14 @@ i {
   padding: 0.5rem 2rem;
 }
 
+.btn:hover {
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
 .cv-btn {
   background-color: #fff;
   border: 1px solid #f7d9d9;
-}
-
-#hero {
-  padding-top: 0;
 }
 
 #hero .container .row .left h2 {
@@ -64,7 +77,7 @@ i {
 }
 
 .framePict {
-  width: 65%;
+  width: 60%;
   height: 40vw;
   background-color: #f7d9d9;
   border-radius: 12rem 0;
@@ -77,7 +90,7 @@ i {
 }
 
 #project .container .row {
-  max-width: 1200px;
+  max-width: 1330px;
 }
 
 .project-title {

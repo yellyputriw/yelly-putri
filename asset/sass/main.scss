@@ -13,6 +13,17 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+
+  .navigasi {
+    max-width: 1200px;
+  }
+}
+
 nav {
   background-color: #fff;
   font-family: 'Rancho', cursive;
@@ -44,15 +55,16 @@ i {
   padding: 0.5rem 2rem;
 }
 
+.btn:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
 .cv-btn {
   background-color: #fff;
   border: 1px solid $light-pink;
 }
 
 // Hero
-#hero {
-  padding-top: 0;
-}
 
 #hero .container .row .left {
   h2 {
@@ -75,7 +87,7 @@ i {
 }
 
 .framePict {
-  width: 65%;
+  width: 60%;
   height: 40vw;
   background-color: $light-pink;
   border-radius: 12rem 0;
@@ -89,7 +101,7 @@ i {
 
 //Project
 #project .container .row {
-  max-width: 1200px;
+  max-width: 1330px;
 }
 
 .project-title {
