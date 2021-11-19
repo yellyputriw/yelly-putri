@@ -162,6 +162,12 @@ i {
   color: #f25287;
 }
 
+.social-media .social-wrapper a:hover {
+  background-color: #f7d9d9;
+  border: none;
+  color: #fff;
+}
+
 .social-media .social-wrapper a i {
   display: block;
   font-size: 1.3rem;

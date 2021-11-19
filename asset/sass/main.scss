@@ -165,6 +165,12 @@ i {
     border-radius: 50%;
     color: $dark-pink;
 
+    &:hover {
+      background-color: $light-pink;
+      border: none;
+      color: #fff;
+    }
+
     i {
       display: block;
       font-size: 1.3rem;
