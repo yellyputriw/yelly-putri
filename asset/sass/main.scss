@@ -65,7 +65,6 @@ i {
 }
 
 // Hero
-
 #hero .container .row .left {
   h2 {
     font-family: 'Rancho', cursive;
@@ -97,6 +96,32 @@ i {
   color: $dark-pink;
   font-family: 'Rancho', cursive;
   font-size: 4rem;
+}
+
+.db-link {
+  color: $dark-pink;
+  position: relative;
+}
+
+.db-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: $dark-pink;
+  content: '';
+  transform: scale(0);
+  transition: transform 0.3s cubic-bezier(0.11, 0.7, 0, 1);
+}
+
+.db-link:hover {
+  color: $dark-pink;
+}
+
+.db-link:hover::after {
+  transform: scale(1);
 }
 
 //Project
@@ -155,5 +180,112 @@ footer {
   p {
     font-family: 'Rancho', cursive;
     border-top: 1px solid $light-pink;
+  }
+}
+
+// Responsive layout
+@media (max-width: 768px) {
+  .navbar > .container,
+  .navbar > .container-fluid,
+  .navbar > .container-lg,
+  .navbar > .container-md,
+  .navbar > .container-sm,
+  .navbar > .container-xl,
+  .navbar > .container-xxl {
+    flex-wrap: nowrap;
+  }
+
+  header .navigasi {
+    display: flex;
+    justify-content: end;
+  }
+
+  #hero .container .row .left h1,
+  #hero .container .row .left h2 {
+    font-size: 2.5rem;
+
+    span {
+      font-size: 3rem;
+    }
+  }
+
+  .btn {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+  }
+
+  #about {
+    img {
+      width: 300px;
+    }
+
+    .desc {
+      padding: 0 1rem !important;
+
+      p {
+        font-size: 1rem !important;
+      }
+    }
+  }
+
+  .project-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .project-image {
+    justify-content: center !important;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .section {
+    padding: 70px 0;
+  }
+
+  .hero-wrapper {
+    flex-direction: column-reverse;
+
+    .col-6 {
+      width: 100% !important;
+
+      &.left {
+        padding-top: 1.5rem;
+
+        .hero-btn {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+    }
+  }
+
+  .project-image img {
+    width: 400px;
+  }
+
+  .tools-list {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .tools-img {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+
+  #about img {
+    width: 250px;
+  }
+
+  .project-image img {
+    width: 320px;
   }
 }
