@@ -6,3 +6,5 @@ import '../component/project';
 import '../component/tools';
 import '../component/contact';
 import '../component/footer';
+
+import '../../styles/main.scss';
