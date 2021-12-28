@@ -12,7 +12,7 @@ class Project extends HTMLElement {
           </div>
           <div class="project-wrapper row my-5 pb-5 align-items-center">
             <div class="col project-content">
-              <h3 class="project-title fs-1">Lorem Ipsum Landing Page</h3>
+              <h3 class="project-title fs-1">My Clock</h3>
               <div class="project-description p-3 rounded-2">
                 <p class="mb-0">A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm</p>
               </div>
@@ -23,13 +23,13 @@ class Project extends HTMLElement {
             </div>
             <div class="col project-image d-flex justify-content-end">
               <a href="#">
-                <img src="./project/tl-landing-page.png" alt="" width="550">
+                <img src="./project/myClock.png" alt="" width="550" height="400">
               </a>
             </div>
           </div>
           <div class="row my-5 pb-5 align-items-center">
             <div class="col project-content order-1">
-              <h3 class="project-title fs-1">Lorem Ipsum Landing Page</h3>
+              <h3 class="project-title fs-1">Health Care</h3>
               <div class="project-description p-3 rounded-2">
                 <p class="mb-0">A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm</p>
               </div>
@@ -40,7 +40,7 @@ class Project extends HTMLElement {
             </div>
             <div class="col project-image d-flex order-0 ">
               <a href="#">
-                <img src="./project/tl-landing-page.png" alt="" width="550">
+                <img src="./project/healthCare.png" alt="" width="550">
               </a>
             </div>
           </div>
