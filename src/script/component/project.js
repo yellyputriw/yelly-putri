@@ -18,7 +18,7 @@ class Project extends HTMLElement {
               </div>
               <div class="project-link pt-2">
                 <!-- <a href="#" class="github-link"><i class="uil uil-github-alt fs-3 px-1"></i></a> -->
-                <a href="#" class="external-link"><i class="uil uil-external-link-alt fs-3 px-1"></i></a>
+                <a href="https://yellyputriw.github.io/myClock/" target="_blank" class="external-link"><i class="uil uil-external-link-alt fs-3 px-1"></i></a>
               </div>
             </div>
             <div class="col project-image d-flex justify-content-end">
@@ -35,7 +35,7 @@ class Project extends HTMLElement {
               </div>
               <div class="project-link pt-2">
                 <!-- <a href="#" class="github-link"><i class="uil uil-github-alt fs-3 px-1"></i></a> -->
-                <a href="#" class="external-link"><i class="uil uil-external-link-alt fs-3 px-1"></i></a>
+                <a href="https://yellyputriw.github.io/health-care/" target="_blank" class="external-link"><i class="uil uil-external-link-alt fs-3 px-1"></i></a>
               </div>
             </div>
             <div class="col project-image d-flex order-0 ">
