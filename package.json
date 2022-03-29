@@ -1,39 +1,44 @@
 {
   "name": "yelly-putri",
   "version": "1.0.0",
-  "description": "My Portofolio website",
+  "description": "My Portfolio Website",
   "main": "index.js",
+  "private": "true",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "start-dev": "webpack serve --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "build": "webpack --config ./bundler/webpack.prod.js",
     "lint": "eslint ./src"
   },
+  "author": "Yelly Putri <yellyputriw@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yellyputriw/yelly-putri.git"
+    "url": "https://github.com/yellyputriw/yelly-putri.git"
   },
-  "author": "yelly putri (yellyputriw@gmail.com)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yellyputriw/yelly-putri/issues"
-  },
-  "homepage": "https://github.com/yellyputriw/yelly-putri#readme",
-  "dependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
-    "babel-loader": "^8.2.3",
-    "copy-webpack-plugin": "^10.2.0",
-    "css-loader": "^6.5.1",
-    "gh-pages": "^3.2.3",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
     "html-webpack-plugin": "^5.5.0",
-    "sass": "^1.45.1",
-    "sass-loader": "^12.4.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
-    "webpack": "^5.65.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.7.0",
-    "webpack-merge": "^5.8.0"
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4",
+    "webpack-merge": "^5.8.0",
+    "webpack-pwa-manifest": "^4.3.0",
+    "workbox-webpack-plugin": "^6.5.2"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3",
+    "regenerator-runtime": "^0.13.9"
   }
 }
