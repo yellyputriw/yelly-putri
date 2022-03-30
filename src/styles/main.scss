@@ -21,21 +21,25 @@ section {
   margin: auto;
 }
 
-h5 {
+h3 {
   font-family: $cursive-font;
+  color: $dark-pink;
 }
 
 p {
   font-family: $sansserif-font;
 }
 
-i,
-h5 {
-  color: $dark-pink;
-}
-
 a:hover {
   color: $black-text !important;
+}
+
+.icon {
+  width: 1rem;
+}
+
+.contact-icon {
+  width: 1.25rem;
 }
 
 .yell-btn {
@@ -47,16 +51,14 @@ a:hover {
   font-weight: 500;
   color: $black-text;
   border-radius: 50px 0 50px 0;
-  transition-property: background-color, border-color, color, fill, stroke,
-    opacity, box-shadow, transform;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
   transition-duration: 300ms;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   transform: translateX(0) translateY(0) scaleX(1) scaleY(1);
 
   &:hover {
-    box-shadow: 0px 20px 25px -5px $shadow,
-      0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 20px 25px -5px $shadow, 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
     color: $black-text;
   }
 
@@ -140,28 +142,38 @@ yell-hero {
 }
 
 // About
-.abilities {
-  position: relative;
-
-  &::before {
-    content: url('../public/images/about/dot.png');
-    position: absolute;
-    left: -50px;
-    bottom: 170px;
+yell-about {
+  .desc p {
+    letter-spacing: 0.3px;
   }
 
-  .about-card {
-    width: 14rem;
-    height: 13rem;
+  .abilities {
+    position: relative;
+
+    &::before {
+      content: url('../public/images/about/dot.png');
+      position: absolute;
+      left: -50px;
+      bottom: 170px;
+    }
+
+    .about-card {
+      width: 14rem;
+      height: 13rem;
+    }
   }
 }
 
 // Tools
-.tools-img {
-  filter: grayscale(0);
+.tools-list li {
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.3s;
 
   &:hover {
-    filter: grayscale(1);
+    box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px #00000000, 0px 6.650102138519287px 5.32008171081543px 0px #00000007, 0px 12.521552085876465px 10.017241477966309px 0px #00000009,
+      0px 22.3363094329834px 17.869047164916992px 0px #0000000b, 0px 41.777610778808594px 33.422088623046875px 0px #0000000d, 0px 100px 80px 0px #00000012;
+    transform: translateY(-8px);
   }
 }
 
