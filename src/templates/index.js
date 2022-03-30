@@ -19,7 +19,6 @@ module.exports = function (templateParams) {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rancho&display=swap"
           rel="stylesheet"
         />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         <noscript>You need to enable JavaScript!</noscript>
       </head>
       <body>
