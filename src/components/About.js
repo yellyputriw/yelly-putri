@@ -14,7 +14,7 @@ class About extends HTMLElement {
               <div class="row abilities"></div>
             </div>
             <div
-              class="desc col-lg-6 px-5 d-flex flex-column justify-content-center"
+              class="desc col-lg-6 px-5 d-flex flex-column justify-content-center" data-aos="fade-down" data-aos-duration="1500"
             >
               <h2 class="subtitle text-center pb-3">About Me</h2>
               <p class="fs-5">

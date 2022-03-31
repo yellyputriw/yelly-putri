@@ -7,7 +7,7 @@ class Project extends HTMLElement {
     this.innerHTML = /* html */ `
       <section id="project">
         <div class="container col d-flex flex-column align-items-center">
-          <div class="row">
+          <div class="row" data-aos="fade-down" data-aos-duration="1500">
             <h2 class="subtitle text-center pb-3">Some Things I’ve Built</h2>
           </div>
           <div class="row d-flex justify-content-center align-items-center project-wrapper"></div>

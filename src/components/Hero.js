@@ -7,7 +7,7 @@ class Hero extends HTMLElement {
     this.innerHTML = /* html */ `
       <div class="container">
         <div class="hero-wrapper row align-items-center">
-          <div class="col-6 d-flex align-items-center flex-column ">
+          <div class="col-6 d-flex align-items-center flex-column" data-aos="fade-up" data-aos-duration="1500">
             <div class="hero-txt">
               <p class="pb-1 mb-0">Hello! I'm</p>
               <h1>
@@ -26,7 +26,7 @@ class Hero extends HTMLElement {
               </a>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-6" data-aos="fade-down" data-aos-duration="1500">
             <div class="container-fluid framePict">
               <img src="/images/hero/hero-img.png" alt="Yelly" />
             </div>
