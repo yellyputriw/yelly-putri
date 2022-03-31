@@ -12,8 +12,7 @@ class Contact extends HTMLElement {
               <div class="col d-flex flex-column align-items-center">
                 <h2 class="subtitle text-center pb-3">Get In Touch</h2>
                 <p class="text-center m-3" style="max-width: 500px;">
-                  Although I’m not currently looking for any new opportunities, my inbox is always open. 
-                  Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+                Whether you have a question or just want to say hi, my inbox is always open. I’ll try my best to get back to you!
                 </p>
                 <a class="yell-btn mb-4 text-decoration-none" type="button" href="mailto:yellyputriw@gmail.com">
                   Say Hello!
