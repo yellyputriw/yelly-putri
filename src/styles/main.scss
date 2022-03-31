@@ -51,14 +51,18 @@ a:hover {
   font-weight: 500;
   color: $black-text;
   border-radius: 50px 0 50px 0;
-  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-property: background-color,
+    border-color, color, fill, stroke, opacity,
+    box-shadow, transform;
   transition-duration: 300ms;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  transform: translateX(0) translateY(0) scaleX(1) scaleY(1);
+  transform: translateX(0) translateY(0) scaleX(1)
+    scaleY(1);
 
   &:hover {
-    box-shadow: 0px 20px 25px -5px $shadow, 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 20px 25px -5px $shadow,
+      0px 10px 10px -5px rgba(0, 0, 0, 0.04);
     color: $black-text;
   }
 
@@ -166,13 +170,23 @@ yell-about {
 
 // Tools
 .tools-list li {
-  padding: 10px;
+  margin: 8px;
+  padding: 8px;
   border-radius: 20px;
   transition: 0.3s;
 
   &:hover {
-    box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px #00000000, 0px 6.650102138519287px 5.32008171081543px 0px #00000007, 0px 12.521552085876465px 10.017241477966309px 0px #00000009,
-      0px 22.3363094329834px 17.869047164916992px 0px #0000000b, 0px 41.777610778808594px 33.422088623046875px 0px #0000000d, 0px 100px 80px 0px #00000012;
+    box-shadow: 0px 2.767256498336792px
+        2.2138051986694336px 0px #00000000,
+      0px 6.650102138519287px 5.32008171081543px
+        0px #00000007,
+      0px 12.521552085876465px
+        10.017241477966309px 0px #00000009,
+      0px 22.3363094329834px 17.869047164916992px
+        0px #0000000b,
+      0px 41.777610778808594px
+        33.422088623046875px 0px #0000000d,
+      0px 100px 80px 0px #00000012;
     transform: translateY(-8px);
   }
 }
@@ -208,7 +222,8 @@ yell-project .row {
       background-color: $dark-pink;
       content: '';
       transform: scale(0);
-      transition: transform 0.3s cubic-bezier(0.11, 0.7, 0, 1);
+      transition: transform 0.3s
+        cubic-bezier(0.11, 0.7, 0, 1);
     }
 
     .project-link:hover {
@@ -374,5 +389,15 @@ yell-footer {
 
   yell-project .row .project-card {
     max-width: 325px !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .yell-btn {
+    font-size: 12px;
+  }
+
+  yell-project .row .project-card {
+    max-width: 280px !important;
   }
 }
