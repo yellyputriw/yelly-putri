@@ -1,21 +1,43 @@
 import Ability from '@utils/Ability';
 
-const ability1 = new Ability('/images/about/web-design.svg', 'Web Design');
+const ability1 = new Ability(
+  '/images/about/web-design.svg',
+  'Web Design',
+  'fade-down-right'
+);
 
-const ability2 = new Ability('/images/about/web-development.svg', 'Web Development');
+const ability2 = new Ability(
+  '/images/about/web-development.svg',
+  'Web Development',
+  'fade-down-left'
+);
 
-const ability3 = new Ability('/images/about/responsive-layout-design.svg', 'Responsive Layout Design');
+const ability3 = new Ability(
+  '/images/about/responsive-layout-design.svg',
+  'Responsive Layout Design',
+  'fade-up-right'
+);
 
-const ability4 = new Ability('/images/about/wireframe.svg', 'Wireframe & Prototyping');
+const ability4 = new Ability(
+  '/images/about/wireframe.svg',
+  'Wireframe & Prototyping',
+  'fade-up-left'
+);
 
-const abilities = [ability1, ability2, ability3, ability4];
+const abilities = [
+  ability1,
+  ability2,
+  ability3,
+  ability4,
+];
 
-const abilitiesWrapper = document.querySelector('.abilities');
+const abilitiesWrapper =
+  document.querySelector('.abilities');
 
-abilities.map(({ image, title }) => {
+abilities.map(({ image, title, fade }) => {
   abilitiesWrapper.innerHTML += /* html */ `
-    <div class="col col-lg-5 d-flex justify-content-center">
-      <div class="card m-2 border-0 card-shadow about-card" >
+    <div class="col col-lg-5 d-flex justify-content-center" data-aos="${fade}" data-aos-duration="1500">
+      <div class="card m-2 border-0 card-shadow about-card"  >
         <div class="card-body align-items-center">
           <img class="card-img-top" src="${image}" alt="${title}">
           <h3 class="card-title text-center fs-5 pb-3 px-3">
