@@ -5,22 +5,19 @@ class Project {
    * @param {string} title
    * @param {string} description
    * @param {string} link
-   * @param {string} fade
    * @returns
    */
   static add(
     image,
     title,
     description,
-    link = '#',
-    fade
+    link = '#'
   ) {
     return {
       image,
       title,
       description,
       link,
-      fade,
     };
   }
 }

@@ -3,25 +3,25 @@ import Ability from '@utils/Ability';
 const ability1 = new Ability(
   '/images/about/web-design.svg',
   'Web Design',
-  'fade-down-right'
+  'fade-down'
 );
 
 const ability2 = new Ability(
   '/images/about/web-development.svg',
   'Web Development',
-  'fade-down-left'
+  'fade-down'
 );
 
 const ability3 = new Ability(
   '/images/about/responsive-layout-design.svg',
   'Responsive Layout Design',
-  'fade-up-right'
+  'fade-up'
 );
 
 const ability4 = new Ability(
   '/images/about/wireframe.svg',
   'Wireframe & Prototyping',
-  'fade-up-left'
+  'fade-up'
 );
 
 const abilities = [

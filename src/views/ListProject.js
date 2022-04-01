@@ -5,29 +5,25 @@ const projects = [
     '/images/project/health-care.png',
     'Health Care',
     'Corona virus web info to see case updates from all countries build with javascript and API.',
-    'https://yellyputriw.github.io/health-care',
-    'fade-right'
+    'https://yellyputriw.github.io/health-care'
   ),
   Project.add(
     '/images/project/oneyel-coffee.png',
     'Oneyel Coffee Landing Page',
     'Coffee shop landing page build with html, css and vanilla javascript.',
-    'https://oneyel-coffee.netlify.app',
-    'fade-left'
+    'https://oneyel-coffee.netlify.app'
   ),
   Project.add(
     '/images/project/yelingkaran.png',
     'Yelingkaran',
     'Web app with mobile layout for calculating the area of ​​a circle built with vanilla javascript.',
-    'https://yellyputriw.github.io/yelingkaran',
-    'fade-right'
+    'https://yellyputriw.github.io/yelingkaran'
   ),
   Project.add(
     '/images/project/my-clock.png',
     'My Clock',
     'Simple online clock with shadow inset effect build with vanilla css and vanilla javascript.',
-    'https://yellyputriw.github.io/myClock',
-    'fade-left'
+    'https://yellyputriw.github.io/myClock'
   ),
 ];
 
@@ -36,9 +32,9 @@ const projectWrapper = document.querySelector(
 );
 
 projects.map(
-  ({ image, title, description, link, fade }) => {
+  ({ image, title, description, link }) => {
     projectWrapper.innerHTML += /* html */ `
-    <div class="col-md-5 card m-3 px-0 border-0 card-shadow project-card" data-aos="${fade}" data-aos-duration="1500">
+    <div class="col-md-5 card m-3 px-0 border-0 card-shadow project-card" data-aos="fade-up" data-aos-duration="1500">
       <img src="${image}" class="card-img-top" alt="${title}">
       <div class="card-body">
         <h3 class="card-title fs-4">${title}</h3>
